@@ -1,0 +1,65 @@
+body {
+	background: #f8f8f8;
+	font-family: '微软雅黑', Arial, Helvetica, sans-serif;
+}
+.top-nav {
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 40px;
+	font-size: .9em;
+}
+/*left*/
+.top-nav .left-nav {
+	float: left;
+}
+.top-nav .welcome-msg {
+	float: left;
+}
+/*right*/
+.top-nav .right-nav {
+	float: right;
+}
+
+.main-header-wrap {
+	height: 80px;
+	background: #fff;
+}
+.main-header {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.main-nav {
+	background-color: #2aa3ce;
+	color: #fff;
+}
+.main-nav .category-nav {
+	width: 1200px;
+	margin: 0 auto;
+}
+.main-nav .category-nav .std-item {
+	padding: 0;
+}
+.main-nav .category-nav li a,
+.main-nav .category-nav .sub-nav-header {
+	display: inline-block;
+	padding: 0 20px;
+	line-height: 48px;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: #fff;
+}
+.main-nav .category-nav .std-item a:hover {
+	background-color: #1c7b9e;
+}
+.main-nav .category-nav .sub-nav-header {
+	padding: 0;
+}
+.main-nav .category-nav .sub-nav-header a {
+	padding: 0 80px;
+	background-color: #50BDE6;
+}
+.main-nav .category-nav .sub-nav-header a i {
+	padding-left: 6px;
+}

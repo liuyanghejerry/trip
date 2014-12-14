@@ -414,26 +414,22 @@ footer{
 	height: auto;
 }
 .footer-middle{
-	padding: 20px 5px;
+	padding: 20px 0px;
 }
-.fl{
+.subcribe-line, .valid-code-line{
 	float: left;
 }
 .footer-middle .row .col-md-2>img{
 	width: 200px;
 	height:190px;
 }
-.footer-content .item-block{
-	width: 170px;
-}
-.footer-content .item-block ul li {
-	list-style: none;
+.footer-content .item-block li {
 	margin-top: 5px;
 }
-.footer-content .item-block ul li a {
+.footer-content .item-block li a {
 	color: #707070;
 }
-.footer-content .item-block ul li a:hover{
+.footer-content .item-block li a:hover{
 	color: #337ab7;
 	text-decoration: underline;
 }
@@ -441,19 +437,18 @@ footer{
 	font-size: 18px;
 }
 /*mail contact*/
-.contact-us {
+.footer-content .contact-us {
 	float: right;
 }
-.mail-contact{
+.footer-content .mail-contact {
 	width: 310px;
-	font-family: "微软雅黑",Arial, Helvetica, sans-serif;
 	border: 1px solid #ddd;
 	background-color: #f8f8f8;
 	border-radius: 5px;
 	padding: 15px;
 	margin: 10px 0;
 }
-.mail-form .fl input{
+.mail-form .subcribe-line input{
 	padding: 4px;
 	width: 180px;
 	margin-right: 15px;
@@ -462,27 +457,31 @@ footer{
 .buttonS{
 	color: #fff;
 	font-size: 14px;
-	font-family: "微软雅黑",Arial, Helvetica, sans-serif;
 	cursor: pointer;
 	background-color: #2aa3ce;
 	border-radius: 4px;
 	border: 0;
 }
-.btn-subscribe{
+.mail-form .btn-subscribe{
 	padding: 6px 25px;
 }
-.fl.valid-code input{
+.mail-form .valid-code-line {
+	margin-top: 15px;
+}
+.mail-form .valid-code-line input{
 	width: 95px;
 	padding: 2px;
 }
-.valid-code span,.valid-code input,.valid-code a{
+.mail-form .valid-code-line span,
+.valid-code-line input,
+.valid-code-line a {
 	margin-right: 6px;
 }
-.phoneNumber{
+.footer-content .phoneNumber{
 	color: #2aa3ce;
 	font-size: 22px;
 }
-.phoneNumber .intro{
+.footer-content .phoneNumber .intro{
 	color: #707070;
 	font-size: 12px;
 }
@@ -492,20 +491,20 @@ footer{
 	height: 110px;
 	background: #f2f2f2;
 }
-.link-tool{
+.footer-bottom .link-tool{
 	height: 70px;
 	margin-left: 35%;
 }
-.link-tool ul li {
+.footer-bottom .link-tool ul li {
 	list-style: none;
 	float: left;
 	margin: 15px 5px;
 }
-.link-tool ul li>img{
+.footer-bottom .link-tool ul li>img{
 	width: 100px;
 	height: 50px;
 }
-.copyright-brand{
+.footer-bottom .copyright-brand{
 	text-align: center;
 	color: #707070;
 	font-size: 12px;

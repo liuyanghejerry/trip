@@ -249,6 +249,10 @@ footer{
 .fl{
 	float: left;
 }
+.footer-middle .row .col-md-2>img{
+	width: 200px;
+	height:190px;
+}
 .footer-content .item-block{
 	width: 170px;
 }

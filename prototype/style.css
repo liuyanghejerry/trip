@@ -222,7 +222,7 @@ body {
 	margin-left: 18px;
 }
 .region-section {
-	min-height: 412px;
+	/*min-height: 412px;*/
 }
 .region-section .boxart-zone {
 	display: inline-block;
@@ -263,6 +263,7 @@ body {
 .region-section .detail-zone {
 	display: inline-block;
 	vertical-align: top;
+	border-left:  1px solid #F8F8F8;
 }
 .region-section .detail-zone .category-tabs .category-tab a {
 	color: #2aa3ce;
@@ -380,6 +381,22 @@ body {
 	border-radius: 4px;
 	margin-left: 10px;
 	border-radius: 4px;
+}
+.region-section .detail-container .page-indicator {
+	font-size: 0;
+	margin-bottom: 40px;
+}
+.region-section .detail-container .page-indicator ul {
+	text-align: center;
+}
+.region-section .detail-container .page-indicator li a {
+	display: inline-block;
+	width: 36px;
+	height: 6px;
+	background-color: #EBEBEB;
+}
+.region-section .detail-container .page-indicator li.selected a {
+	background-color: #0088cc;
 }
 
 /*footer*/

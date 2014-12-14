@@ -134,18 +134,18 @@ body {
 .section-box {
 	width: 100%;
 	min-height: 200px;
-	margin-top: 30px;
+	margin-top: 15px;
 	border: 1px solid #ddd;
 	border-radius: 5px;
 	background-color: #fff;
 }
-.grid-section .category-tabs {
+.grid-section .category-tabs,
+.region-section .detail-zone .category-tabs {
 	margin-left: 20px;
 	margin-top: 20px;
-	/*font-size: 0;
-	letter-spacing: 0;*/
 }
-.grid-section .category-tabs .category-tab a {
+.grid-section .category-tabs .category-tab a,
+.region-section .detail-zone .category-tabs .category-tab a {
 	display: inline-block;
 	padding: 3px 15px;
 	border-radius: 5px;
@@ -220,6 +220,166 @@ body {
 	height: 142px;
 	margin-bottom: 10px;
 	margin-left: 18px;
+}
+.region-section {
+	min-height: 412px;
+}
+.region-section .boxart-zone {
+	display: inline-block;
+	width: 240px;
+	margin: 20px 0 20px 20px;
+}
+.region-section .boxart-zone .title-eng {
+	font-size: 12px;
+	margin: 0;
+}
+.region-section .boxart-zone .title-ch {
+	font-size: 28px;
+	margin: 4px 0 0 0;
+	font-weight: bold;
+}
+.region-section .boxart-zone .title-ch a {
+	color: #2aa3ce;
+	text-decoration: none;
+}
+.region-section .boxart-zone .region-thumb {
+	margin: 20px 0 0 0;
+}
+.region-section .boxart-zone .region-cities {
+	margin: 15px 0 0 0;
+}
+.region-section .boxart-zone .region-city {
+	padding: 0 6px;
+	line-height: 24px;
+	background-color: #c4c4c4;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+	white-space: nowrap;
+}
+.region-section .boxart-zone .region-city:hover {
+	background-color: #707070;
+}
+.region-section .detail-zone {
+	display: inline-block;
+	vertical-align: top;
+}
+.region-section .detail-zone .category-tabs .category-tab a {
+	color: #2aa3ce;
+}
+.region-section .detail-zone .category-tabs .category-tab:hover a {
+	background-color: #e9e9e9;
+}
+.region-section .detail-zone .category-tabs .category-tab.selected a,
+.region-section .detail-zone .category-tabs .category-tab.selected:hover a {
+	color: #fff;
+	background-color: #2aa3ce;
+}
+.region-section .detail-container {
+	margin: 20px 0 0 20px;
+}
+.region-section .detail-group {
+	display: block;
+}
+.region-section .detail-group li {
+	/*removes display-inline spacing*/
+	font-size: 0;
+}
+.region-section .detail-group li>div {
+	font-size: 14px;
+}
+.region-section .detail-group .large-detail {
+	display: inline-block;
+	vertical-align: top;
+	width: 382px;
+	height: 290px;
+	position: relative;
+}
+.region-section .detail-group .large-detail .detail-descriptions {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+	background-color: rgba(51, 51, 51, 0.8);
+	color: #fff;
+}
+.region-section .detail-group .large-detail .detail-descriptions .detail-title {
+	margin-bottom: 5px;
+}
+.region-section .detail-group .large-detail .detail-descriptions .detail-title a {
+	font-size: 16px;
+	color: #fff;
+}
+.region-section .detail-group .large-detail .detail-descriptions .detail-subtitle {
+	display: none;
+}
+.region-section .detail-group .large-detail .detail-descriptions:hover .detail-subtitle {
+	display: block;
+}
+.region-section .detail-group .large-detail .detail-descriptions .detail-misc .pricetag {
+	font-size: 18px;
+	color: #ffca08;
+}
+.region-section .detail-group .large-detail .detail-descriptions .detail-misc .featuretag {
+	padding: 3px 6px;
+	background-color: #565656;
+	color: #fff;
+	margin-left: 10px;
+	border-radius: 4px;
+}
+.region-section .detail-group .small-details {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	margin-left: 20px;
+}
+.region-section .detail-group .small-details .small-detail {
+	font-size: 0;
+	margin-bottom: 20px;
+}
+.region-section .detail-group .small-details .small-detail .thumb-link {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	margin-right: 20px;
+}
+.region-section .detail-group .small-details .small-detail .detail-descriptions {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.region-section .detail-group .small-details .small-detail .detail-descriptions .detail-title a {
+	font-size: 16px;
+	color: #000;
+}
+.region-section .detail-group .small-details .small-detail .detail-descriptions .detail-title:hover a {
+	color: #0088cc;
+}
+.region-section .detail-group .small-details .small-detail .detail-descriptions .detail-subtitle {
+	max-width: 270px;
+	max-height: 40px;
+	line-height: 20px;
+	margin-top: 8px;
+	overflow: hidden;
+	/*white-space:nowrap;*/
+	text-overflow:ellipsis;
+	color: #707070;
+}
+.region-section .detail-group .small-details .small-detail .detail-descriptions .detail-misc {
+	margin-top: 20px;
+}
+.region-section .detail-group .small-details .small-detail .detail-descriptions .detail-misc .pricetag {
+	font-size: 18px;
+	color: #F3185A;
+}
+.region-section .detail-group .small-details .small-detail .detail-descriptions .detail-misc .featuretag {
+	padding: 3px 6px;
+	background-color: #ebebeb;
+	color: #6a6a6a;
+	border-radius: 4px;
+	margin-left: 10px;
+	border-radius: 4px;
 }
 
 /*footer*/

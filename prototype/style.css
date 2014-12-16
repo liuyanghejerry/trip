@@ -116,10 +116,7 @@ body {
 .main .hot-slides {
 	margin-left: 240px;
 	height: 400px;
-	border: 1px solid #eee;
-	border-top: none;
-	border-left: none;
-	/*box-shadow: 0 0 8px #CCC;*/
+	border: none;
 }
 .main .hot-slides .slides-inner {
 	width: 100%;

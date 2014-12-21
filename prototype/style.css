@@ -9,6 +9,125 @@ body {
 	line-height: 40px;
 	font-size: .9em;
 }
+
+.main-header .search-box {
+	padding: 0;
+}
+.main-header .search-box-inner {
+	height: 40px;
+	line-height: 34px;
+	margin: 20px 20px 0 20px;
+	border: 3px solid #FE9813;
+	border-radius: 5px;
+	font-size: 0;
+	background-color: #fe9813;
+}
+.main-header .from-city {
+	display:  inline-block;
+	width: 20%;
+	height: 100%;
+	vertical-align: top;
+	padding: 0;
+	padding-left: 10px;
+	font-size: 14px;
+	background-color: #fff8d5;
+	position: relative;
+}
+.main-header .from-city:hover {
+	background-color: #fff;
+}
+.main-header .from-city:hover .from-suggest-box,
+.main-header .from-city .from-suggest-box:hover {
+	display: block;
+}
+.main-header .from-city .from-suggest-box,
+.main-header .target-city .target-suggest-box {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	min-width: 368px;
+	min-height: 300px;
+	padding: 5px 15px;
+	border: 3px solid #fe9813;
+	border-radius: 5px;
+	background: #fff;
+	z-index: 3;
+	margin-left: -3px;
+	display: none;
+}
+.main-header .suggest-box dt {
+	line-height: 20px;
+	padding: 0 0 4px 10px;
+	color: #ff6f00;
+	border-bottom: 1px solid #e6e6e6;
+	margin-bottom: 4px;
+}
+.main-header .suggest-box dd {
+	white-space: nowrap;
+}
+.main-header .suggest-box dd a {
+	margin: 0 10px;
+	color: #222;
+	text-decoration: none;
+}
+.main-header .suggest-box dd a:hover {
+	color: #fe9813;
+	text-decoration: underline;
+}
+.main-header .from-city-inner {
+	height: 100%;
+	cursor: pointer;
+	border-right: 2px solid #fe9813;
+}
+.main-header .from-city-inner .hint {
+	margin-left: 6px;
+	color: #999;
+	font-size: 10px;
+}
+.main-header .from-city-inner .fa-sort-desc {
+	padding-right: 6px;
+	float: right;
+	line-height: 34px;
+	color: #fe9813;
+}
+.main-header .target-city {
+	display: inline-block;
+	height: 100%;
+	width: 80%;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	background-color: #FE9813;
+	position: relative;
+}
+.main-header .target-city input {
+	width: 90%;
+	max-width: 545px;
+	height: 100%;
+	padding: 0 0 0 10px;
+	border: none;
+}
+.main-header .target-city a {
+	display: inline-block;
+	width: 9%;
+	min-width: 40px;
+	height: 100%;
+	vertical-align: top;
+	text-align: center;
+	padding: 0;
+	border: none;
+	color: #fff;
+	text-decoration: none;
+}
+.main-header .target-city input:focus ~ .target-suggest-box,
+.main-header .target-city .target-suggest-box:hover {
+	display: block;
+}
+.main-header .target-city .target-suggest-box {
+	min-width: 100%;
+	z-index: 2;
+}
+
 /*left*/
 .top-nav .left-nav {
 	float: left;

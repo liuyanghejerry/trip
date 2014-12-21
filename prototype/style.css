@@ -667,3 +667,49 @@ footer{
 	font-size: 12px;
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+	.top-nav {
+		width: 100%;
+	}
+	.main-header {
+		width: 100%;
+	}
+	.main-header .from-city {
+		width: 25%;
+	}
+	.main-header .target-city {
+		width: 75%;
+	}
+	.main-header .target-city a {
+		min-width: inherit;
+		/*width: inherit;*/
+	}
+	.main-nav {
+		display: none;
+	}
+	.slides-inner .item-bg {
+		clip: rect(0, 783px, 400px, 0px);
+	}
+	.main {
+		width: 100%;
+	}
+	.grid-section .category-tab-content .fullview {
+		display: none;
+	}
+/*	.grid-section .category-tab-content .thumbview:nth-last-of-type(0),
+	.grid-section .category-tab-content .thumbview:nth-last-of-type(1) {
+		display: inherit;
+	}*/
+	.region-section .boxart-zone {
+		display: none;
+	}
+	.region-section .zone-boundry-line {
+		display: none;
+	}
+	.region-banner {
+		display: none;
+	}
+	.footer-content {
+		width: 90%;
+	}
+}

@@ -519,6 +519,24 @@ body {
 .region-section .detail-container .page-indicator li.selected a {
 	background-color: #0088cc;
 }
+.region-section.red-scheme .boxart-zone .title-ch a,
+.region-section.red-scheme .detail-zone .category-tabs .category-tab a {
+	color: #FB5B63;
+}
+.region-section.red-scheme .detail-zone .category-tabs .category-tab.selected a,
+.region-section.red-scheme .detail-container .page-indicator li.selected a {
+	color: #fff;
+	background-color: #FB5B63;
+}
+.region-section.yellow-scheme .boxart-zone .title-ch a,
+.region-section.yellow-scheme .detail-zone .category-tabs .category-tab a {
+	color: #FE9813;
+}
+.region-section.yellow-scheme .detail-zone .category-tabs .category-tab.selected a,
+.region-section.yellow-scheme .detail-container .page-indicator li.selected a {
+	color: #fff;
+	background-color: #FE9813;
+}
 
 /*footer*/
 footer{

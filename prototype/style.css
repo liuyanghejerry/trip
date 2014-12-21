@@ -537,6 +537,17 @@ body {
 	color: #fff;
 	background-color: #FE9813;
 }
+.region-banner {
+	margin: 20px 0;
+	border: 1px solid transparent; 
+}
+.region-banner:hover {
+	border: 1px solid rgb(221, 221, 221); 
+	box-shadow: rgb(221, 221, 221) 3px 3px 5px;
+}
+.region-banner img {
+	border-radius: 5px;
+}
 
 /*footer*/
 footer{

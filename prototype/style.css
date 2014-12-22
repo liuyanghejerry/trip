@@ -682,7 +682,6 @@ footer{
 	}
 	.main-header .target-city a {
 		min-width: inherit;
-		/*width: inherit;*/
 	}
 	.main-nav {
 		display: none;
@@ -696,13 +695,14 @@ footer{
 	.grid-section .category-tab-content .fullview {
 		display: none;
 	}
-/*	.grid-section .category-tab-content .thumbview:nth-last-of-type(0),
-	.grid-section .category-tab-content .thumbview:nth-last-of-type(1) {
-		display: inherit;
-	}*/
-	.region-section .boxart-zone {
-		display: none;
+	.grid-section .category-tab-content .thumbview:nth-child(5n+2) {
+		margin-left: 0;
 	}
+	.region-section .boxart-zone {
+		margin-bottom: 20px;
+	}
+	.region-section .boxart-zone .region-thumb,
+	.region-section .boxart-zone .region-cities,
 	.region-section .zone-boundry-line {
 		display: none;
 	}

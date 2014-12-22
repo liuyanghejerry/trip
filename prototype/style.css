@@ -695,7 +695,7 @@ footer{
 	.grid-section .category-tab-content .fullview {
 		display: none;
 	}
-	.grid-section .category-tab-content .thumbview:nth-child(5n+2) {
+	.grid-section .category-tab-content .thumbview:nth-of-type(5n+2) {
 		margin-left: 0;
 	}
 	.region-section .boxart-zone {

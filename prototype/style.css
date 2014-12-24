@@ -757,6 +757,7 @@ footer{
 }
 
 /* for iPhone5 & iPhone5s */
+/* iPhone6 & iPhone6 plus is inclueded too */
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
 	.top-nav {
 		width: 100%;
@@ -765,6 +766,10 @@ footer{
 		float: none;
 		width: 90%;
 		margin: 0 auto;
+		text-align: right;
+	}
+	.top-nav .shopping-cart {
+		display: none;
 	}
 	.top-nav .right-nav {
 		display: none;
@@ -786,16 +791,20 @@ footer{
 		display: inline-block;
 		width: 30%;
 		text-align: center;
-		/*border-left: 1px solid #000;*/
 		border-left: 1px solid #F6F6F6;
 	}
 	.main-nav .category-nav .std-item:nth-of-type(3n+2) {
 		border: none;
 	}
-	.main-nav .category-nav li a {
+	.main-nav .category-nav .std-item a {
+		width: 100%;
 		padding: 0;
 		font-size: 14px;
 		color: #2AA3CE;
+	}
+	.main-nav .category-nav .std-item a:hover {
+		background-color: #2AA3CE;
+		color: #fff;
 	}
 	.main-nav .category-nav .sub-nav-header {
 		display: none;
@@ -860,5 +869,25 @@ footer{
 	}
 	.footer-bottom .copyright-brand span {
 		display: block;
+	}
+}
+
+/* iPhone 6 */
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio : 2) {
+	.footer-top-inner .advantage-icon {
+		width: 100px;
+		font-size: 100px;
+		line-height: 100px;
+		margin-left: 40px;
+	}
+}
+
+/* iPhone 6 plus */
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3) {
+	.footer-top-inner .advantage-icon {
+		width: 100px;
+		font-size: 100px;
+		line-height: 100px;
+		margin-left: 60px;
 	}
 }

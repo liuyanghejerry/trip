@@ -811,6 +811,7 @@ footer{
 	}
 	.main .hot-menu .hot-menu-item {
 		height: 180px;
+		border-bottom: none;
 	}
 	.main .hot-menu .hot-menu-item .pricetag {
 		display: inline;

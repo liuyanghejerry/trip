@@ -832,10 +832,6 @@ footer{
 		display: block;
 		width: 90%;
 		margin: 0 auto;
-	}
-	.region-section .boxart-zone .title-eng,
-	.region-section .boxart-zone .title-ch,
-	.region-section .boxart-zone .region-cities {
 		text-align: center;
 	}
 	.region-banner {

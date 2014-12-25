@@ -687,17 +687,14 @@ footer{
 	background: #f2f2f2;
 }
 .footer-bottom .link-tool{
-	height: 70px;
-	margin-left: 35%;
+	min-height: 70px;
+	font-size: 0;
+	line-height: 70px;
+	text-align: center;
 }
-.footer-bottom .link-tool ul li {
-	list-style: none;
-	float: left;
-	margin: 15px 5px;
-}
-.footer-bottom .link-tool ul li>img{
-	width: 100px;
-	height: 50px;
+.footer-bottom .link-tool div {
+	display: inline-block;
+	margin: 0 10px;
 }
 .footer-bottom .copyright-brand{
 	text-align: center;
@@ -796,9 +793,6 @@ footer{
 	}
 	.footer-bottom {
 		height: auto;
-	}
-	.footer-bottom .link-tool {
-		display: none;
 	}
 }
 

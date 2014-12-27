@@ -10,6 +10,21 @@ body {
 	font-size: .9em;
 }
 
+.main-header .main-logo {
+	height: 40px;
+	margin-top: 20px;
+	border-radius: 5px;
+	background-image: url(assets/logo.gif);
+	padding-left: 12px;
+	font-size: 30px;
+	color: #fff;
+}
+.main-header .main-phone {
+	height: 40px;
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 16px;
+}
 .main-header .search-box {
 	padding: 0;
 }
@@ -710,6 +725,9 @@ footer{
 	.main-header {
 		width: 100%;
 	}
+	.main-header .main-logo {
+		padding-left: 0;
+	}
 	.main-header .from-city {
 		width: 25%;
 	}
@@ -718,6 +736,7 @@ footer{
 	}
 	.main-header .target-city a {
 		min-width: inherit;
+		width: auto;
 	}
 	.main-nav {
 		display: none;
